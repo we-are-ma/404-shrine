@@ -25,6 +25,7 @@ html, body {
   margin-right: auto;
   margin-top: 50px;
   width: 500px;
+  min-width: 500px;
 }
 #omikuji-outer {
   margin: 30px auto;
@@ -62,11 +63,11 @@ html, body {
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     #main {
         width: 280px !important;
     }
-}
+} */
 
 .card {
   width: 500px;
@@ -79,12 +80,12 @@ html, body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .card {
       width: 280px !important;
       height: 280px !important;
     }
-}
+} */
 
 .sea {
   width: 100%;
