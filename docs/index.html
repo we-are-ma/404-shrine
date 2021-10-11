@@ -8,10 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="libs/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
   </head>
   <body>
-    <div id="container">
+    <div class="container">
       <div id="main">
         <label>
           <input type="checkbox"/>
@@ -116,8 +117,9 @@
             </div>
           </div>
         </label>
-        <div id="omikuji-outer">
-          <img id="omikuji" src="">
+        <div class="omikuji-outer">
+          <a href="javascript:omikuji();" class="fuwapochi-btn-green">おみくじを引く</a>
+          <img id="omikuji" src="" style="display: none;">
         </div>
       </div>
     </div>
