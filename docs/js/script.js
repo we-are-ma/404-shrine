@@ -12,5 +12,5 @@ function takiage() {
 }
 
 function link() {
-    window.opener.postMessage(JSON.stringify({link: true}), "*");
+    window.parent.postMessage(JSON.stringify({link: true}), "*");
 }
