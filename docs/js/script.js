@@ -10,3 +10,7 @@ function omikuji() {
 function takiage() {
     $("#takiage").show();
 }
+
+function link() {
+    window.opener.postMessage(JSON.stringify({link: true}), "*");
+}
