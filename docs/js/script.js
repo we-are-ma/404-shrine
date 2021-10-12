@@ -6,3 +6,7 @@ function omikuji() {
     $("#omikuji").attr('src', `https://www.cotogoto.ai/omikuji/${omikuji_ret}.jpg`);
     $("#omikuji").show();
 }
+
+function takiage() {
+    $("#takiage").show();
+}
