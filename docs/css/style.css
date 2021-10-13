@@ -1218,7 +1218,6 @@ input:checked + .card .cloud, input:checked + .card .cloud2, input:checked + .ca
   left: calc(50% - 50px);
   width: 100px;
   height: 100px;
-  margin-top: 50px;
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
