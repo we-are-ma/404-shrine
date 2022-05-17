@@ -11,7 +11,7 @@ async function takiage() {
 
     $('#contents').width($('body').width());
 
-    const response = await fetch('https://protopedia.net/api/prototypes.json?status=4')
+    const response = await fetch('https://protopedia.net/api/prototypes.json?status=4&token=e8beabf47776780ea8fb42abbd0ce325')
     const list = await response.json(); 
     const uniqueList =[];
     let prev = '';
