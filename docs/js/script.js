@@ -1,3 +1,8 @@
+$(function () {
+    var windowHeight = $(window).height();
+    $("body").height(windowHeight);
+});
+
 function omikuji() {
     const omikuji_min = 1;
     const omikuji_max = 50;
