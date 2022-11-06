@@ -1,5 +1,5 @@
 $(function () {
-    var windowHeight = $(window).height();
+    var windowHeight = window.opener.outerHeight;
     $("body").height(windowHeight);
 });
 
